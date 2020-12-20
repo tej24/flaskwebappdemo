@@ -48,7 +48,7 @@ resource "azurerm_app_service" "dockerapp" {
     # Settings for private Container Registires
     DOCKER_REGISTRY_SERVER_URL      = "https://index.docker.io"
     DOCKER_REGISTRY_SERVER_USERNAME = "thejus55"
-    DOCKER_REGISTRY_SERVER_PASSWORD = "dockthej*2020"
+    DOCKER_REGISTRY_SERVER_PASSWORD = "*****" #NEED TO BE FILLED DURING RUN
 
   }
 
