@@ -8,4 +8,18 @@ To demo a simple flask web app  by deploying it in Azure using terraform
 - Requirements file to install Flask python package in the dev environment (requirments.txt)
 - Azure pipelines yaml which has the CI CD defintions to deploy the app in Azure app service (azure-pipelines.yaml) - Currently running from container only
 
+## how to run
 
+- Launch the Azure shell from azure portal(your account)
+- cd to folder /home/thejus/RSA/deploy
+- For fresh deployment through terraform , run the below commands(uses deploy.tf file to deploy) -
+
+ terraform init
+ terraform plan
+ terraform apply
+ 
+- The above commands will create a -
+   
+   resource group -> app service plan -> app service
+   
+  eventually deploying the flask web app in azure cloud
