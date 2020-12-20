@@ -1,5 +1,5 @@
 # flask Web app demo
-To demo a simple ###flask web app written in ###Python by deploying it in Azure using terraform
+To demo a simple flask web app written in Python by deploying it in Azure using terraform
 
 ## components
 - Basic **flask** app written in **python** to say "Hello world" when the server is hit (app.py)
