@@ -1,4 +1,14 @@
 # Docker
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Pay-As-You-Go(1)(3a6334e3-3bc7-4ff1-8844-bb785c868802)'
+    appType: 'webAppContainer'
+    WebAppName: 'flasktest-dockerapp'
+    deployToSlotOrASE: true
+    ResourceGroupName: 'flasktestResourceGroup'
+    SlotName: 'production'
+    StartupCommand: 'terraform apply'
 # Build a Docker image 
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
