@@ -25,7 +25,7 @@ To demo a simple flask web app written in Python by deploying it in Azure using 
   
  ## Output
  
- - Hit the UI shown in the App service URL section in Azure portal 
+ - Hit the UI shown in the App service URL section in Azure portal  (accessible across machines- Tested : OK)
  
  https://flasktest-dockerapp.azurewebsites.net
  
